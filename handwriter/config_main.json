@@ -1,5 +1,6 @@
 {
-  "rondom_font": "True",
+  "rondom_font": "False",
+  "line": "True",
   "height": 8000,
   "width": 2600,
   "height_spacings": 70,

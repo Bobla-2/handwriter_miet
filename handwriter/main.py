@@ -15,12 +15,16 @@ with open('config_main.json', 'r') as f:
     y_char_to_line_offset = config_main.get('y_char_to_line_offset', 0)
     font_spacing = config_main.get('font_spacing', 0)
     font_size = config_main.get('font_size', 0)
-    rondom_font = bool(config_main.get('rondom_font', "False"))
+    rondom_font = config_main.get('rondom_font', "False")
+    line_color_bool = config_main.get('line', "False")
     # define the default spacing before and after each character
     default_space_before = 0
     default_space_after = 0
 
-line_color = (0, 0, 0)  # цвет линий
+if line_color_bool == "True":
+    line_color = (0, 0, 0)  # цвет линий
+else:
+    line_color = (255, 255, 255)
 
 # define the font
 font_path = 'handfont-rus.ttf'
@@ -30,7 +34,7 @@ font_main_list.append(font_main)
 font_path_add = 'handfont-rus-add.ttf'
 font_add = ImageFont.truetype(font_path_add, font_size)
 
-if rondom_font:
+if rondom_font == "True":
     font_path2 = 'handfont-rus2.ttf'
     font_main2 = ImageFont.truetype(font_path, font_size)
     font_main_list.append(font_main2)
