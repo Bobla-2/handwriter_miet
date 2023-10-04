@@ -17,3 +17,4 @@ C:\Users\savva\Documents\GitHub\handwriter_miet\handwriter\dist.zip
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
 handwriter/dist.zip
+handwriter/build/
