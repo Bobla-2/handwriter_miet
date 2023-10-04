@@ -1,0 +1,42 @@
+{
+    "а": {
+        "spacing": 0,
+        "space_before": 0
+    },
+    "б": {
+        "spacing": -25,
+        "space_before": 0
+    },
+	"в": {
+        "spacing": -3,
+        "space_before": 0
+    },
+	"д": {
+        "spacing": 0,
+        "space_before": -2
+    },
+	"о": {
+        "spacing": -1,
+        "space_before": 0
+    },
+	"р": {
+        "spacing": 0,
+        "space_before": -8
+    },
+	" ": {
+        "spacing": 10,
+        "space_before": 5
+    },
+	",": {
+        "spacing": 2,
+        "space_before": 5
+    },
+	".": {
+        "spacing": 2,
+        "space_before": 5
+    },
+	"*": {
+        "spacing": 2,
+        "space_before": 4
+    }
+}

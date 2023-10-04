@@ -1,0 +1,11 @@
+{
+  "rondom_font": "True",
+  "height": 8000,
+  "width": 2600,
+  "height_spacings": 70,
+  "x_zero_offset": 100,
+  "y_zero_offset": 50,
+  "y_char_to_line_offset": 22,
+  "font_spacing": -18,
+  "font_size": 150
+}
